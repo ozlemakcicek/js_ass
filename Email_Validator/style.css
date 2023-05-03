@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(105, 60, 211), rgb(249, 191, 232));
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+form{
+    max-width: 550px;
+    width: 100%;
+    margin-left: 100px;
+background-color: white;
+padding: 15px 10px 250px;
+}
+
+
+
+
+.inputText{
+    width: 13rem;
+    margin-top: 1rem;
+}
+.checkButton{
+    width: 4rem;
+    
+  
+}
+form p{
+    color: rgb(181, 5, 5);
+    font-weight: 700;
+    font-size: large;
+    padding-top: 3rem;
+}
