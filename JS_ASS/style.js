@@ -39,5 +39,6 @@ resim.addEventListener('mouseover',()=>{
 
 resim.addEventListener('mouseout',()=>{
 resim.src='./assets/aslan2.jpeg'
+
 })
 
