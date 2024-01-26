@@ -53,7 +53,8 @@ veriGetir();
 
 const ekranaBastir = (data) => {
   data.forEach((eleman) => {
-    document.querySelector('.tvShowList').innerHTML += `<div class="col-md-3"> 
+    document.querySelector('.tvShowList').innerHTML += 
+    `<div class="col-md-3"> 
  <div class="card" >
    <img src=${eleman.show.image.medium} class="card-img-top">
    <div class="card-body">
